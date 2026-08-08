@@ -1,0 +1,21 @@
+0.9.27 Shared Station / Endpoint Priority Fix — local verification
+
+Passed:
+- original 0.9.23 panel + geometry parity checks
+- global UV / dimensions / endpoint / long-arc checks
+- captured BakedModel deformation and preview checks
+- endpoint lighting/culling checks
+- 0.9.25/0.9.26 view-orientation and Conquest compatibility checks
+- shared-station outer-crack regression
+- no ModelTemplateArcRenderer SEAM_OVERLAP
+- no template prism.draws face-mask dependency
+- template renderer emits four longitudinal surfaces and no internal end caps
+- ModelArcRenderer uses ArcStationFrames at every original segment boundary
+- terminal endpoint state uses connectionDirection for connectivity and opposite seamDirection for terminal model/texture orientation
+- endpoint resolver/renderer has no dependency on optional player view-orientation state
+- ArcComponentFinder rejects partial ordered components rather than silently dropping long-arc segments
+- one real G key registration remains
+- JSON resources parse successfully
+- Java parser-level syntax check passes
+
+Final Fabric/Loom compilation still requires the included Actions workflow or a complete Fabric dev environment.

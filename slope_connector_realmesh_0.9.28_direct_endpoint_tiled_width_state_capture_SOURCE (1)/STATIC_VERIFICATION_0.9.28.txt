@@ -1,0 +1,24 @@
+0.9.28 Direct Endpoint / Tiled Width / Exact State Capture — local verification
+
+Passed locally:
+- existing geometry and continuous UV regression suite
+- endpoint-centre / mandatory-lead regression suite
+- global geometry-driven atlas suite
+- independent dimensions / native endpoint suite
+- long-arc / perimeter atlas suite
+- 0.9.23 panel/control parity suite
+- model deformation / inventory preview suite
+- endpoint lighting / culling suite
+- 0.9.25 topology / view-orientation / Conquest suite
+- 0.9.26 / 0.9.27 seam and endpoint-priority suites
+- new 0.9.28 direct endpoint-to-curve seam tests
+- new 0.9.28 one-model-per-width-tile tests
+- endpoint tile-count / endpoint span parity tests
+- exact stair/slab BlockState preservation tests
+- JSON and Java structural checks
+- embedded jar API checks
+- one real G key registration checks
+- SegmentChainOrder topology harness
+- parser-level Java syntax check (external Minecraft/Fabric dependency errors excluded)
+
+The current container does not contain a full Fabric/Loom Minecraft dependency classpath. Final `gradle clean build` must still run in the included GitHub Actions workflow or another complete Fabric dev environment.

@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "package": "com.slopeconnector.surface.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ConnectedArcGeneratorMixin",
+    "ArcRibbonDimensionMixin",
+    "ConnectedNeighborStateMixin",
+    "ModelNeighborConnectionMixin",
+    "ArcWandModelBlockEntityBypassMixin",
+    "BlockItemPlacementOrientationMixin"
+  ],
+  "client": [
+    "ArcHudPromptMixin",
+    "ArcWandHoldingMixin",
+    "ArcDimensionScreenMixin",
+    "ArcRibbonRendererMixin",
+    "ConnectedArcRendererMixin",
+    "ArcPlacementOrientationScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

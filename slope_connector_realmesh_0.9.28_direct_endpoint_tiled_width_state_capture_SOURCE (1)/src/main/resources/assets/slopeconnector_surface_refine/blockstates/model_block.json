@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "skinned=false": {"model": "slopeconnector_surface_refine:block/model_block"},
+    "skinned=true": {"model": "slopeconnector_surface_refine:block/invisible"}
+  }
+}
